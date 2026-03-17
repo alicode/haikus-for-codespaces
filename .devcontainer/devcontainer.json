@@ -1,5 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postStartCommand": "bash .devcontainer/start.sh",
-  "features": {}
+    "features": {}
 }
