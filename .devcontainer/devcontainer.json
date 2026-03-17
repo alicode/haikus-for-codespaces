@@ -1,3 +1,11 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24"
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "postStartCommand": "bash .devcontainer/start.sh",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "My App",
+      "onAutoForward": "openBrowser"
+    }
+  }
 }
